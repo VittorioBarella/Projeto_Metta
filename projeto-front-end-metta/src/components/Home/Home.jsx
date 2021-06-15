@@ -9,15 +9,10 @@ class Home extends Component {
           id='vit'
           className='d-flex flex-column justify-content-center align-items-center'
         >
-          <div className='vit-container' data-aos='fade-in'>
+          <div className='vit-container typewriter' data-aos='fade-in'>
             <h1>Vittório Andrade</h1>
-            <p>
-              Eu sou um
-              <span
-                className='typed'
-                data-typed-items='Designer, Developer, Freelancer, Photographer'
-              ></span>
-            </p>
+
+            <h3>Front-end Developer.</h3>
           </div>
         </section>
         <main id='main'>
