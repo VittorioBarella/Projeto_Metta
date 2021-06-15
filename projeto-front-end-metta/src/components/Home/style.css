@@ -1,0 +1,95 @@
+#vit {
+  width: 100%;
+  height: 100vh;
+  background: url("../../assets/img/Vittorio.jpg") top center;
+  background-size: cover;
+}
+
+#vit:before {
+  content: "";
+  background: rgba(5, 13, 24, 0.3);
+  position: absolute;
+  bottom: -55px;
+  top: 55px;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+#vit .vit-container {
+  position: relative;
+  z-index: 2;
+  min-width: 300px;
+}
+
+#vit h1 {
+  margin: 0 0 10px 0;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+
+#vit p {
+  color: #fff;
+  margin-bottom: 50px;
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+}
+
+#vit p span {
+  color: #fff;
+  padding-bottom: 4px;
+  letter-spacing: 1px;
+  border-bottom: 3px solid #149ddd;
+}
+
+@media (min-width: 1024px) {
+  #vit {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+  #vit h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #vit h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+.umPoucoSobreMim .content h3 {
+  font-weight: 700;
+  font-size: 26px;
+  color: #173b6c;
+}
+
+.umPoucoSobreMim .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.umPoucoSobreMim .content ul li {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.umPoucoSobreMim .content ul strong {
+  margin-right: 10px;
+}
+
+.umPoucoSobreMim .content ul i {
+  font-size: 16px;
+  margin-right: 5px;
+  color: #149ddd;
+  line-height: 0;
+}
+
+.umPoucoSobreMim .content p:last-child {
+  margin-bottom: 0;
+}
