@@ -21,11 +21,8 @@ class Home extends Component {
               <div className='section-title'>
                 <h2>Um pouco sobre mim</h2>
                 <p>
-                  Magnam dolores commodi suscipit. Necessitatibus eius
-                  consequatur ex aliquid fuga eum quidem. Sit sint consectetur
-                  velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit
-                  suscipit alias ea. Quia fugiat sit in iste officiis commodi
-                  quidem hic quas.
+                  Eu sou um desenvolvedor front-end que mora atualmente em
+                  Gravataí, Rio Grande do Sul.
                 </p>
               </div>
 
@@ -44,9 +41,8 @@ class Home extends Component {
                 >
                   <h3>Front-end Developer.</h3>
                   <p className='fst-italic'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                    Em minha última experiência trabalhei com React.js em uma
+                    aplicação feita em pwa.
                   </p>
                   <div className='row'>
                     <div class='col-lg-6'>
@@ -83,13 +79,11 @@ class Home extends Component {
                     </div>
                   </div>
                   <p>
-                    Officiis eligendi itaque labore et dolorum mollitia officiis
-                    optio vero. Quisquam sunt adipisci omnis et ut. Nulla
-                    accusantium dolor incidunt officia tempore. Et eius omnis.
-                    Cupiditate ut dicta maxime officiis quidem quia. Sed et
-                    consectetur qui quia repellendus itaque neque. Aliquid amet
-                    quidem ut quaerat cupiditate. Ab et eum qui repellendus
-                    omnis culpa magni laudantium dolores.
+                    Tenho como objeto de entrar no mercado de trabalho, na área
+                    da tecnologia. Gosto de criar telas, buscar referências e
+                    sempre aprender novas tecnologias. Quando não estou
+                    trabalhando ou estudando você vai me encontrar tocando
+                    violão ou treinando Muay Thai.
                   </p>
                 </div>
               </div>
