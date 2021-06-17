@@ -7,9 +7,9 @@ class Home extends Component {
       <>
         <section
           id='vit'
-          className='d-flex flex-column justify-content-center align-items-center'
+          className='d-flex flex-column justify-content-center align-items-center fadeIn'
         >
-          <div className='vit-container typewriter' data-aos='fade-in'>
+          <div className='vit-container typewriter'>
             <h1>Vittório Andrade</h1>
 
             <h3>Front-end Developer.</h3>
@@ -17,7 +17,7 @@ class Home extends Component {
         </section>
         <main id='main'>
           <section id='umPoucoSobreMim' className='umPoucoSobreMim'>
-            <div className='container'>
+            <div className='container '>
               <div className='section-title mt-3'>
                 <h2>Um pouco sobre mim</h2>
                 <p>
