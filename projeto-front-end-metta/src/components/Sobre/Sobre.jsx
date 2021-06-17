@@ -12,7 +12,7 @@ import Vittorio_Galeria_8 from '../../assets/img/Vittorio_Galeria_8.jpg';
 function Sobre() {
   return (
     <>
-      <div className='container-fluid'>
+      <div className='container-fluid fadeIn'>
         <div className='row'>
           <div className='col-md-4'>
             <img
