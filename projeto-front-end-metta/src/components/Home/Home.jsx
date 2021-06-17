@@ -17,7 +17,7 @@ class Home extends Component {
         </section>
         <main id='main'>
           <section id='umPoucoSobreMim' className='umPoucoSobreMim'>
-            <div className='container '>
+            <div className='container'>
               <div className='section-title mt-3'>
                 <h2>Um pouco sobre mim</h2>
                 <p>
@@ -79,8 +79,8 @@ class Home extends Component {
                     </div>
                   </div>
                   <p>
-                    Tenho como objeto de entrar no mercado de trabalho, na área
-                    da tecnologia. Gosto de criar telas, buscar referências e
+                    Tenho como objeto, entrar no mercado de trabalho, na área da
+                    tecnologia. Gosto de criar telas, buscar referências e
                     sempre aprender novas tecnologias. Quando não estou
                     trabalhando ou estudando você vai me encontrar tocando
                     violão ou treinando Muay thai.
