@@ -39,6 +39,32 @@ function Sobre() {
             </p>
           </div>
         </div>
+        <div class='header'>
+          <h1>Esportes & Lazer</h1>
+          <p>
+            Um pouco do que gosto de fazer e alguns esportes que gosto de
+            praticar.
+          </p>
+        </div>
+
+        <div class='row'>
+          <div class='column'>
+            <img src={Vittorio_3} alt='Vittório de Andrade Barella' />
+            <img src={Vittorio_3} alt='Vittório de Andrade Barella' />
+          </div>
+          <div class='column'>
+            <img src={Vittorio_3} alt='Vittório de Andrade Barella' />
+            <img src={Vittorio_3} alt='Vittório de Andrade Barella' />
+          </div>
+          <div class='column'>
+            <img src={Vittorio_3} alt='Vittório de Andrade Barella' />
+            <img src={Vittorio_3} alt='Vittório de Andrade Barella' />
+          </div>
+          <div class='column'>
+            <img src={Vittorio_3} alt='Vittório de Andrade Barella' />
+            <img src={Vittorio_3} alt='Vittório de Andrade Barella' />
+          </div>
+        </div>
       </div>
     </>
   );

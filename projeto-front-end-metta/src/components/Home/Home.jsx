@@ -18,7 +18,7 @@ class Home extends Component {
         <main id='main'>
           <section id='umPoucoSobreMim' className='umPoucoSobreMim'>
             <div className='container'>
-              <div className='section-title'>
+              <div className='section-title mt-3'>
                 <h2>Um pouco sobre mim</h2>
                 <p>
                   Eu sou um desenvolvedor front-end que mora atualmente em
@@ -83,7 +83,7 @@ class Home extends Component {
                     da tecnologia. Gosto de criar telas, buscar referências e
                     sempre aprender novas tecnologias. Quando não estou
                     trabalhando ou estudando você vai me encontrar tocando
-                    violão ou treinando Muay Thai.
+                    violão ou treinando Muay thai.
                   </p>
                 </div>
               </div>
