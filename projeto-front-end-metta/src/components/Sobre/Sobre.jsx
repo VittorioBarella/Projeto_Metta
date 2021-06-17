@@ -1,6 +1,14 @@
 import React from 'react';
 import '../Sobre/style.css';
 import Vittorio_3 from '../../assets/img/Vittorio_3.jpg';
+import Vittorio_Galeria_1 from '../../assets/img/Vittorio_Galeria_1.png';
+import Vittorio_Galeria_2 from '../../assets/img/Vittorio_Galeria_2.png';
+import Vittorio_Galeria_3 from '../../assets/img/Vittorio_Galeria_3.jpg';
+import Vittorio_Galeria_4 from '../../assets/img/Vittorio_Galeria_4.jpg';
+import Vittorio_Galeria_5 from '../../assets/img/Vittorio_Galeria_5.png';
+import Vittorio_Galeria_6 from '../../assets/img/Vittorio_Galeria_6.jpg';
+import Vittorio_Galeria_7 from '../../assets/img/Vittorio_Galeria_7.jpg';
+import Vittorio_Galeria_8 from '../../assets/img/Vittorio_Galeria_8.jpg';
 function Sobre() {
   return (
     <>
@@ -40,29 +48,26 @@ function Sobre() {
           </div>
         </div>
         <div class='header'>
-          <h1>Esportes & Lazer</h1>
-          <p>
-            Um pouco do que gosto de fazer e alguns esportes que gosto de
-            praticar.
-          </p>
+          <h1>Galeria de Fotos</h1>
+          <p>Um pouco do que gosto de fazer.</p>
         </div>
 
         <div class='row'>
           <div class='column'>
-            <img src={Vittorio_3} alt='Vittório de Andrade Barella' />
-            <img src={Vittorio_3} alt='Vittório de Andrade Barella' />
+            <img src={Vittorio_Galeria_1} alt='Vittório de Andrade Barella' />
+            <img src={Vittorio_Galeria_2} alt='Vittório de Andrade Barella' />
           </div>
           <div class='column'>
-            <img src={Vittorio_3} alt='Vittório de Andrade Barella' />
-            <img src={Vittorio_3} alt='Vittório de Andrade Barella' />
+            <img src={Vittorio_Galeria_3} alt='Vittório de Andrade Barella' />
+            <img src={Vittorio_Galeria_4} alt='Vittório de Andrade Barella' />
           </div>
           <div class='column'>
-            <img src={Vittorio_3} alt='Vittório de Andrade Barella' />
-            <img src={Vittorio_3} alt='Vittório de Andrade Barella' />
+            <img src={Vittorio_Galeria_5} alt='Vittório de Andrade Barella' />
+            <img src={Vittorio_Galeria_6} alt='Vittório de Andrade Barella' />
           </div>
           <div class='column'>
-            <img src={Vittorio_3} alt='Vittório de Andrade Barella' />
-            <img src={Vittorio_3} alt='Vittório de Andrade Barella' />
+            <img src={Vittorio_Galeria_7} alt='Vittório de Andrade Barella' />
+            <img src={Vittorio_Galeria_8} alt='Vittório de Andrade Barella' />
           </div>
         </div>
       </div>
