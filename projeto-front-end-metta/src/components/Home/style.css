@@ -1,5 +1,5 @@
 .typewriter h3 {
-  color: #fff;
+  color: #E4F1F6;
   font-family: monospace;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid orange; /* The typwriter cursor */
@@ -31,7 +31,6 @@
 }
 
 #vit:before {
-  background: rgba(5, 13, 24, 0.3);
   position: absolute;
   bottom: -55px;
   top: 55px;
@@ -51,18 +50,18 @@
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  color: #fff;
+  color: #E4F1F6;
 }
 
 #vit p {
-  color: #fff;
+  color: #E4F1F6;
   margin-bottom: 50px;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
 }
 
 #vit p span {
-  color: #fff;
+  color: #E4F1F6;
   padding-bottom: 4px;
   letter-spacing: 1px;
   border-bottom: 3px solid #149ddd;
