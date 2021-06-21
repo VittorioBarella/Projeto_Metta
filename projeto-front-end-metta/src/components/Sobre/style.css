@@ -7,6 +7,9 @@
     padding: 32px;
   }
   
+.grid-photos{
+  margin-bottom: 100px;
+}
   .row {
     display: -ms-flexbox; /* IE10 */
     display: flex;

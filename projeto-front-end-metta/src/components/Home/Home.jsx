@@ -18,7 +18,7 @@ class Home extends Component {
         <main id='main'>
           <section id='umPoucoSobreMim' className='umPoucoSobreMim'>
             <div className='container'>
-              <div className='section-title mt-3'>
+              <div className='section-title mt-3 mb-5'>
                 <h2>Um pouco sobre mim</h2>
                 <p>
                   Eu sou um desenvolvedor front-end que mora atualmente em

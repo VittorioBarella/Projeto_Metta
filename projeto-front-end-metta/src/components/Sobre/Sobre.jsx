@@ -52,7 +52,7 @@ function Sobre() {
           <p>Um pouco do que gosto de fazer.</p>
         </div>
 
-        <div class='row'>
+        <div class='row grid-photos'>
           <div class='column'>
             <img src={Vittorio_Galeria_1} alt='Vittório de Andrade Barella' />
             <img src={Vittorio_Galeria_2} alt='Vittório de Andrade Barella' />
