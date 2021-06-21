@@ -12,4 +12,4 @@ Nesse projeto estou utilizando as seguintes tecnologias:
   - reducers;
   - store;
   - react-bootstrap.
-- Bootstrap;
+- Bootstrap.
