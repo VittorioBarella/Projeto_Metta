@@ -1,52 +1,37 @@
 import React from 'react';
 import '../Contato/style.css';
-function Contato() {
+import { connect } from 'react-redux';
+
+import CommentSection from '../Contato/Comment-Section';
+import AddComment from '../Contato/Form';
+
+import { addComment, removeComment } from '../../actions/index';
+
+var Contato = (props) => {
+  const { addComment, comments, removeComment } = props;
+
   return (
-    <>
-      <div className='container-fluid fadeIn mt-3'>
-        <h3>Me diga o que achou, uma crítica, conselho ou algo a melhorar.</h3>
-        <form>
-          <div className='form-group'>
-            <label for='exampleFormControlSelect1'>Nome:</label>
-            <input
-              className='form-control'
-              type='text'
-              placeholder='Digite seu nome'
-            ></input>
-          </div>
-          <div className='form-group'>
-            <label for='exampleFormControlInput1'>Email:</label>
-            <input
-              type='email'
-              className='form-control'
-              id='exampleFormControlInput1'
-              placeholder='name@example.com'
-            />
-          </div>
-          <div className='form-group'>
-            <label for='exampleFormControlTextarea1'>
-              Deixe seu comentário:
-            </label>
-            <textarea
-              className='form-control'
-              id='exampleFormControlTextarea1'
-              rows='3'
-            ></textarea>
-          </div>
-          <div className='mt-3'>
-            <button type='submit' className='postarComentario btn btn-success'>
-              Postar
-            </button>
-            <button type='button' className='limparComentario btn btn-light'>
-              Limpar Comentário
-            </button>
-          </div>
-        </form>
-        <hr />
-        <h4>Mural de Mensagens: </h4>
-      </div>
-    </>
+    <div className='container'>
+      <AddComment addComment={addComment} />
+      <CommentSection comments={comments} removeComment={removeComment} />
+    </div>
   );
-}
+};
+
+const mapStateToProps = (state) => {
+  return {
+    comments: state,
+  };
+};
+
+const mapDispatchToProps = (dispatch) => {
+  return {
+    addComment: (name, date, comment) =>
+      dispatch(addComment(name, date, comment)),
+    removeComment: (id) => dispatch(removeComment(id)),
+  };
+};
+
+Contato = connect(mapStateToProps, mapDispatchToProps)(Contato);
 
 export default Contato;
